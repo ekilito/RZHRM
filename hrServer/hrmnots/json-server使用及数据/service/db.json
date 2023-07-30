@@ -1,0 +1,413 @@
+{
+  "address": [
+    {
+      "id": 101,
+      "receiver": "李白姓白",
+      "mobile": "13800000101",
+      "province": "浙江省",
+      "city": "杭州市",
+      "area": "西湖区",
+      "location": "西湖大道101号",
+      "state": 1
+    },
+    {
+      "id": 102,
+      "receiver": "苏轼",
+      "mobile": "13800000102",
+      "province": "北京市",
+      "city": "北京市",
+      "area": "昌平区",
+      "location": "西湖大道102号",
+      "state": 0
+    },
+    {
+      "receiver": "韩愈",
+      "mobile": "13800000103",
+      "province": "浙江省",
+      "city": "杭州市",
+      "area": "西湖区",
+      "location": "西湖大道103号",
+      "state": 1,
+      "id": 103
+    }
+  ],
+  "department": [
+    {
+      "id": 1,
+      "pid": 0,
+      "name": "广东公司",
+      "type": "公司",
+      "managerName": "张三三",
+      "introduce": "我是母公司，你们老实点儿！",
+      "member": 511,
+      "createTime": "2022-10-26 17:13:37"
+    },
+    {
+      "id": 2,
+      "pid": 1,
+      "name": "广东总公司",
+      "type": "总公司",
+      "managerName": "李四四",
+      "introduce": "我是总公司呀！",
+      "member": 211,
+      "createTime": "2022-10-26 17:13:37"
+    },
+    {
+      "id": 3,
+      "pid": 1,
+      "name": "佛山分公司",
+      "type": "分公司",
+      "managerName": "李四四",
+      "introduce": "我是分公司哦！",
+      "member": 100,
+      "createTime": "2022-10-26 17:13:37"
+    },
+    {
+      "id": 4,
+      "pid": 1,
+      "name": "深圳分公司",
+      "type": "分公司",
+      "managerName": "李四四",
+      "introduce": "我是分公司哦！",
+      "member": 200,
+      "createTime": "2022-10-26 17:13:37"
+    },
+    {
+      "id": 5,
+      "pid": 2,
+      "name": "市场部",
+      "type": "部门",
+      "managerName": "何笑笑",
+      "introduce": "我是最幸福的市场部！",
+      "member": 50,
+      "createTime": "2022-10-26 17:13:37"
+    },
+    {
+      "id": 6,
+      "pid": 2,
+      "name": "产品部",
+      "type": "部门",
+      "managerName": "李维",
+      "introduce": "我是最幸福的产品部！",
+      "member": 50,
+      "createTime": "2022-10-26 17:13:37"
+    },
+    {
+      "id": 7,
+      "pid": 2,
+      "name": "营销部",
+      "type": "部门",
+      "managerName": "何笑笑",
+      "introduce": "我是最幸福的营销部！",
+      "member": 50,
+      "createTime": "2022-10-26 17:13:37"
+    },
+    {
+      "id": 8,
+      "pid": 2,
+      "name": "行政部",
+      "type": "部门",
+      "managerName": "李维",
+      "introduce": "我是最幸福的行政部！",
+      "member": 60,
+      "createTime": "2022-10-26 17:13:37"
+    },
+    {
+      "id": 9,
+      "pid": 3,
+      "name": "市场部",
+      "type": "部门",
+      "managerName": "何笑笑",
+      "introduce": "我是最幸福的市场部！",
+      "member": 71,
+      "createTime": "2022-10-26 17:13:37"
+    },
+    {
+      "id": 10,
+      "pid": 3,
+      "name": "产品部",
+      "type": "部门",
+      "managerName": "李维",
+      "introduce": "我是最幸福的产品部！",
+      "member": 40,
+      "createTime": "2022-10-26 17:13:37"
+    },
+    {
+      "id": 11,
+      "pid": 3,
+      "name": "营销部",
+      "type": "部门",
+      "managerName": "何笑笑",
+      "introduce": "我是最幸福的营销部！",
+      "member": 60,
+      "createTime": "2022-10-26 17:13:37"
+    },
+    {
+      "id": 12,
+      "pid": 3,
+      "name": "行政部",
+      "type": "部门",
+      "managerName": "李维",
+      "introduce": "我是最幸福的行政部！",
+      "member": 40,
+      "createTime": "2022-10-26 17:13:37"
+    },
+    {
+      "id": 13,
+      "pid": 4,
+      "name": "市场部",
+      "type": "部门",
+      "managerName": "何笑笑",
+      "introduce": "我是最幸福的市场部！",
+      "member": 51,
+      "createTime": "2022-10-26 17:13:37"
+    },
+    {
+      "id": 14,
+      "pid": 4,
+      "name": "产品部",
+      "type": "部门",
+      "managerName": "李维",
+      "introduce": "我是最幸福的产品部！",
+      "member": 70,
+      "createTime": "2022-10-26 17:13:37"
+    },
+    {
+      "id": 15,
+      "pid": 4,
+      "name": "营销部",
+      "type": "部门",
+      "managerName": "何笑笑",
+      "introduce": "我是最幸福的营销部！",
+      "member": 30,
+      "createTime": "2022-10-26 17:13:37"
+    },
+    {
+      "id": 16,
+      "pid": 4,
+      "name": "行政部",
+      "type": "部门",
+      "managerName": "李维",
+      "introduce": "我是最幸福的行政部！",
+      "member": 60,
+      "createTime": "2022-10-26 17:13:37"
+    }
+  ],
+  "category": [
+    {
+      "id": 1,
+      "pid": 0,
+      "name": "默认分类1"
+    },
+    {
+      "id": 2,
+      "pid": 0,
+      "name": "默认分类2"
+    },
+    {
+      "id": 3,
+      "pid": 1,
+      "name": "行政类"
+    },
+    {
+      "id": 4,
+      "pid": 1,
+      "name": "摸鱼类"
+    },
+    {
+      "id": 5,
+      "pid": 1,
+      "name": "专业类"
+    },
+    {
+      "id": 6,
+      "pid": 1,
+      "name": "营销类"
+    },
+    {
+      "id": 7,
+      "pid": 2,
+      "name": "技术类"
+    },
+    {
+      "id": 8,
+      "pid": 2,
+      "name": "管理类"
+    },
+    {
+      "id": 9,
+      "pid": 2,
+      "name": "聊天类"
+    }
+  ],
+  "job": [
+    {
+      "id": 1,
+      "categoryId": 3,
+      "categoryName": "行政类",
+      "name": "行政1",
+      "code": "XZ0001",
+      "departmentId": 8,
+      "departmentName": "行政部",
+      "jobType": "员工",
+      "level": "P1",
+      "state": 1
+    },
+    {
+      "id": 2,
+      "categoryId": 3,
+      "categoryName": "行政类",
+      "name": "行政2",
+      "code": "XZ0002",
+      "departmentId": 12,
+      "departmentName": "行政部",
+      "jobType": "员工",
+      "level": "P2",
+      "state": 0
+    },
+    {
+      "id": 3,
+      "categoryId": 4,
+      "categoryName": "摸鱼类",
+      "name": "摸鱼1",
+      "code": "MY0001",
+      "departmentId": 6,
+      "departmentName": "产品部",
+      "jobType": "办事员",
+      "level": "P3",
+      "state": 1
+    },
+    {
+      "id": 4,
+      "categoryId": 4,
+      "categoryName": "摸鱼类",
+      "name": "摸鱼2",
+      "code": "MY0002",
+      "departmentId": 10,
+      "departmentName": "产品部",
+      "jobType": "经理",
+      "level": "P3",
+      "state": 0
+    },
+    {
+      "id": 5,
+      "categoryId": 5,
+      "categoryName": "专业类",
+      "name": "专业1",
+      "code": "ZY0001",
+      "departmentId": 7,
+      "departmentName": "营销部",
+      "jobType": "经理",
+      "level": "P2",
+      "state": 1
+    },
+    {
+      "id": 6,
+      "categoryId": 5,
+      "categoryName": "专业类",
+      "name": "专业2",
+      "code": "ZY0002",
+      "departmentId": 11,
+      "departmentName": "营销部",
+      "jobType": "董事",
+      "level": "P3",
+      "state": 0
+    },
+    {
+      "id": 7,
+      "categoryId": 6,
+      "categoryName": "营销类",
+      "name": "营销1",
+      "code": "YX0001",
+      "departmentId": 11,
+      "departmentName": "营销部",
+      "jobType": "员工",
+      "level": "P1",
+      "state": 1
+    },
+    {
+      "id": 8,
+      "categoryId": 8,
+      "categoryName": "管理类",
+      "name": "营销2",
+      "code": "YX0002",
+      "departmentId": 7,
+      "departmentName": "营销部",
+      "jobType": "员工",
+      "level": "P2",
+      "state": 0
+    },
+    {
+      "id": 9,
+      "categoryId": 7,
+      "categoryName": "技术类",
+      "name": "研发1",
+      "code": "YF0001",
+      "departmentId": 14,
+      "departmentName": "产品部",
+      "jobType": "办事员",
+      "level": "P2",
+      "state": 1
+    },
+    {
+      "id": 10,
+      "categoryId": 7,
+      "categoryName": "技术类",
+      "name": "研发2",
+      "code": "YF0002",
+      "departmentId": 14,
+      "departmentName": "产品部",
+      "jobType": "办事员",
+      "level": "P1",
+      "state": 1
+    },
+    {
+      "id": 11,
+      "categoryId": 8,
+      "categoryName": "管理类",
+      "name": "项目经理1",
+      "code": "PM0001",
+      "departmentId": 16,
+      "departmentName": "行政部",
+      "jobType": "经理",
+      "level": "P2",
+      "state": 1
+    },
+    {
+      "id": 12,
+      "categoryId": 8,
+      "categoryName": "管理类",
+      "name": "项目经理2",
+      "code": "PM0002",
+      "departmentId": 16,
+      "departmentName": "行政部",
+      "jobType": "董事",
+      "level": "P3",
+      "state": 1
+    },
+    {
+      "id": 13,
+      "categoryId": 9,
+      "categoryName": "聊天类",
+      "name": "聊天1",
+      "code": "LT0001",
+      "departmentId": 13,
+      "departmentName": "市场部",
+      "jobType": "员工",
+      "level": "P3",
+      "state": 1
+    },
+    {
+      "id": 14,
+      "categoryId": 9,
+      "categoryName": "聊天类",
+      "name": "聊天2",
+      "code": "LT0002",
+      "departmentId": 9,
+      "departmentName": "市场部",
+      "jobType": "办事员",
+      "level": "P3",
+      "state": 0
+    }
+  ]
+}
